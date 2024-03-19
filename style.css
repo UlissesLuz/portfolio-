@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    margin: auto;
+    align-items: auto;
+    
+}
+nav>a{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 1.12rem;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    padding-right:5%;
+}
+
+h1{
+    font-family: honk;
+    font-size: 3,12rem;
+    margin: auto;
+    
+}
+
+h1 a{
+    text-decoration: none;
+    color: none;
+}
+
+h2{
+    background-position: left;
+    background-color: rgb(73, 170, 73);
+    margin: auto;
+    padding: 7px;
+    border-radius: 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.13);
+    box-shadow: 3px 3px 3px rgba(47, 107, 47, 0.644);
+    font-size: 1.5rem;
+}
+
+h2 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px;
+}
+
+h3{
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+body{
+    background-color: grey;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.363);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    min-width: 280px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.imagens p{
+    max-width: 50%;
+    margin: auto;
+    padding: 15px;
+  
+}
+
+.capa-videos {
+    display: flex;
+    flex-direction: inline;
+
+    
+}
+.capa-videos a{
+    max-width: 70%;
+    margin: auto;
+}
+
+.capa-videos-texto{
+    font-size: 1.1rem;
+}
+
+.capa__videos__img{
+    border-style: groove;
+}
+
+.capa-videoetexto{
+    display: flex;
+
+}
+
+.capa-invert{
+    display: flex;
+
+}
+
+main iframe {
+    box-sizing: border-box;
+    min-width: 310px;
+    max-width: 1040px;
+}
+
+.video__geral{
+    height: 35vw;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.videos-you {
+    
+    display: block;
+    margin: auto;
+    width: 60vw;
+    height: 100%;
+    padding-top: 30px;
+    border: none;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.minha-img {
+    border: solid rgba(0, 0, 0, 0.788);
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    
+}
+
+.redes-sociais__links{
+    align-items: auto;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.redes-sociais__links:hover{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    border: solid rgba(255, 0, 0, 0.452);
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: auto;
+}
+
+.eu {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-right: 0px;
+    font-size: 1.12rem;
+    color: rgb(0, 0, 0);
+}
+
+.eu p{
+    padding: 20px;
+    font-size: 1.12rem;
+    font-weight: bold;
+
+}
+
+.eu img{
+    max-width: 35%;
+    border-radius: 5px;
+    
+}
+
+.logo{
+    width: 10%;
+    
+}
+
+.eu a{
+    text-align: center;
+}
+
+.eu h2{
+    text-align: center;
+    margin: auto;
+
+}
+
+article{
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(70, 102, 70, 0.473);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.541);
+}
+
+.proxant a{
+    padding-right: 5%;
+}
+
+
+.texto{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 15px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+    
+    
+}
+
+footer{
+    background-color: black;
+}
+
+footer>p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.imagini{
+    border-radius: 50%;
+    max-width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .eu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.capa-videoetexto{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.capa-invert{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+}
